@@ -14,4 +14,4 @@ mpirun --allow-run-as-root \
     -x NCCL_SOCKET_IFNAME=eth0 \
     -x PATH \
     -x LD_LIBRARY_PATH \
-    /data/pytorch1/config_arena.sh
+    /data/pytorch-imagenet-arena/config_arena.sh
